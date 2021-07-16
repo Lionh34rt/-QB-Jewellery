@@ -100,6 +100,7 @@ Citizen.CreateThread(function()
                             if cops >= Config.RequiredCops then
                             QBCore.Functions.TriggerCallback('qb-jewellery:server:HasHack', function(HasItem)
                                 if HasItem then
+                                    TaskStartScenarioInPlace(PlayerPedId(), "PROP_HUMAN_PARKING_METER", 0, true)
                                     QBCore.Functions.Progressbar("deliver_reycle_package", "Hacking security...", 15000, false, true, {
                                         disableMovement = true,
                                         disableCarMovement = true,
@@ -108,6 +109,9 @@ Citizen.CreateThread(function()
                                     }, {}, {}, {}, function() -- Done
                                         TriggerEvent("mhacking:show")
                                         TriggerEvent("mhacking:start", math.random(3, 4), 13, HackingSuccess)
+                                        ClearPedTasks(PlayerPedId())
+                                    end, function() -- CANCEL
+                                        ClearPedTasks(PlayerPedId())
                                     end)
                                 else
                                     QBCore.Functions.Notify('You don\'t have the right items', 'error')
