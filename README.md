@@ -2,6 +2,10 @@
 Reworked jewellery store robbery for qbus base. Players now have to hack the security system on the roof to gain access to the store.
 After 90 seconds the store goes into lockdown and the front door is locked again. Without a security card the robbers are trapped inside.
 
+# FAQ:
+Q: My door is not unlocking
+A: Change the doorId in 'TriggerServerEvent('qb-doorlock:server:updateState', 137, false/true)' to your corresponding qb-doorlock doorId
+
 # Dependency: 
 mobile hacking (https://github.com/GHMatti/FiveM-Scripts/tree/master/mhacking)
 
