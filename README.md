@@ -2,6 +2,8 @@
 Players have to thermite the electrical box on the roof before the front door opens.
 https://i.gyazo.com/bc1591a71998ad2c84fb15c754f8a5df.png
 
+Preview: https://www.youtube.com/watch?v=B0eqwvVh94s
+
 Original: https://github.com/qbcore-framework/qb-jewelery
 
 # Dependencies
