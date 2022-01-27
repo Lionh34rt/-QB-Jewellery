@@ -3,7 +3,6 @@ Players have to thermite the electrical box on the roof before the front door op
 https://i.gyazo.com/bc1591a71998ad2c84fb15c754f8a5df.png
 
 Original: https://github.com/qbcore-framework/qb-jewelery
-Edited by https://github.com/Lionh34rt
 
 # Dependencies
 * [QBCore Framework](https://github.com/qbcore-framework)
