@@ -1,7 +1,7 @@
 Config = Config or {}
 
 Config.Timeout = 60 * (60 * 1000)
-Config.DoorLock = 'nui' -- use 'qb' for qb-doorlock events
+Config.DoorLock = 'qb' -- use 'qb' for qb-doorlock events
 Config.DoorId = 'jewelery' -- name of the door in your doorlock config
 Config.RequiredCops = 0
 Config.JewelleryLocation = {
