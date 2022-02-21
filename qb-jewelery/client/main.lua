@@ -122,7 +122,7 @@ local ThermiteEffect = function()
     ClearPedTasks(ped)
     Wait(2000)
     if Config.DoorLock == 'qb' then
-        TriggerServerEvent('qb-doorlock:server:updateState', Config.DoorId, false)
+        TriggerServerEvent('qb-doorlock:server:updateState', Config.DoorId, false, false, false, true)
     elseif Config.DoorLock == 'nui' then
         TriggerServerEvent('nui_doorlock:server:updateState', Config.DoorId, false, false, false, true)
     end
