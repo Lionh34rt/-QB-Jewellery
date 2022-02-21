@@ -11,7 +11,7 @@ Original: https://github.com/qbcore-framework/qb-jewelery
 * [Memorygame by pushkart2](https://github.com/pushkart2/memorygame)
 * [qb-target by BerkieBb](https://github.com/BerkieBb/qb-target)
 
-# Nui-doorlock config:
+# doorlock config:
 ```lua
 Config.DoorList['jewelery'] = {
     doors = {
@@ -31,32 +31,4 @@ Config.DoorList['jewelery'] = {
     --doorRate = 1.0,
     --showNUI = true
 }
-```
-
-# qb-doorlock config
-```lua
----------------------
--- Jewellery Store --
----------------------
-{
-    textCoords = vector3(-631.26, -237.29, 38.07),
-    authorizedJobs = { 'police' },
-    locking = false,
-    locked = true,
-    pickable = false,
-    distance = 1,
-    doors = {
-        {
-            objName = 'p_jewel_door_l',
-            objYaw = -55.0,
-            objCoords = vector3(-631.26, -237.29, 38.07),
-        },
-
-        {
-            objName = 'p_jewel_door_r1',
-            objYaw = -53.0,
-            objCoords = vector3(-631.26, -237.29, 38.07),		
-        }
-    }
-},
 ```
